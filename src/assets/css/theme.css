@@ -11911,6 +11911,12 @@ a:focus, button:focus {
 .select2-selection__placeholder {
   color: #B1C2D9; }
 
+.modal {
+  z-index: 98 !important; }
+
+.modal-backdrop {
+  z-index: 97 !important; }
+
 .bg-black {
   background-color: #100e17; }
 

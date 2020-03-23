@@ -2,6 +2,12 @@
 // user.scss
 // Use this to write your custom SCSS
 //
+.modal{
+  z-index: 98!important;
+}
+.modal-backdrop{
+  z-index: 97!important;
+}
 .bg-black{
     background-color: #100e17
 }
