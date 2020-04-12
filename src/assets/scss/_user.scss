@@ -2,7 +2,9 @@
 // user.scss
 // Use this to write your custom SCSS
 //
-.bg-88-curved{background-color:transparent!important;background-image:radial-gradient(#000000, #232323 70%, transparent 70.1%);background-repeat:no-repeat;background-position:bottom;background-size:200% 150%}
+.bg-cover{
+  background-position: center;
+}
 .modal{
   z-index: 98!important;
 }
