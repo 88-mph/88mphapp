@@ -11911,6 +11911,13 @@ a:focus, button:focus {
 .select2-selection__placeholder {
   color: #B1C2D9; }
 
+.bg-88-curved {
+  background-color: transparent !important;
+  background-image: radial-gradient(#000000, #232323 70%, transparent 70.1%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 200% 150%; }
+
 .modal {
   z-index: 98 !important; }
 
@@ -11931,6 +11938,16 @@ a:focus, button:focus {
   background-size: 400% 400%;
   -webkit-animation: gradientBG 15s ease infinite;
           animation: gradientBG 15s ease infinite; }
+
+.animated-under-text {
+  color: #fff;
+  background: linear-gradient(244.71deg, #ffe600 -35.32%, #faad14 10.66%, #f7169c 54.29%, #3435f5 94.81%);
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 15s ease infinite;
+          animation: gradientBG 15s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: 50%; }
 
 @-webkit-keyframes gradientBG {
   0% {
