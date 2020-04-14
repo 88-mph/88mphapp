@@ -11911,6 +11911,9 @@ a:focus, button:focus {
 .select2-selection__placeholder {
   color: #B1C2D9; }
 
+.btn-twitter {
+  background-color: #1da1f2; }
+
 .bg-cover {
   background-position: center; }
 
